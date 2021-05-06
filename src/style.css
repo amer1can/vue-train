@@ -19,3 +19,12 @@ body {
   color: green;
   cursor: pointer;
 }
+.white {
+  background-color: #ffffff;
+}
+.red {
+  background-color: red;
+}
+.purple {
+  background-color: lightcoral;
+}
