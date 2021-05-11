@@ -10,14 +10,7 @@ body {
   padding: 15px;
   border-radius: 10px;
   background-color: lightblue;
-}
-.btn {
-  padding: 5px 20px;
-  border: 1px solid green;
-  border-radius: 10px;
-  background-color: #ffffff;
-  color: green;
-  cursor: pointer;
+  align-items: flex-start;
 }
 .white {
   background-color: #ffffff;

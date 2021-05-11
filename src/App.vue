@@ -67,6 +67,9 @@
 
     </div>
   </div>
+  <div class="container">
+    <app-cake-calc></app-cake-calc>
+  </div>
 </template>
 
 <script>
@@ -76,6 +79,7 @@ import AppSlots from './components/AppSlots'
 import AppSlotsList from './components/AppSlotsList'
 import AppTextOne from './components/AppTextOne'
 import AppTextTwo from './components/AppTextTwo'
+import AppCakeCalc from './components/AppCakeCalc'
 export default {
   data () {
     return {
@@ -149,7 +153,8 @@ export default {
     AppSlotsList,
     AppButton,
     AppTextOne,
-    AppTextTwo
+    AppTextTwo,
+    AppCakeCalc
   },
   methods: {
     wopen (data) {
@@ -172,8 +177,5 @@ export default {
 <style>
 .wrap {
   display: flex;
-}
-.container {
-  flex-basis: 33%;
 }
 </style>
